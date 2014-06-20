@@ -1,4 +1,5 @@
 # Purpose : use a do loop to create a text file called data1.txt with lines 1->10 and 2 columns
+# this is fun
 
 touch data1.txt
 
