@@ -1,4 +1,5 @@
 # Purpose : use a do loop to create a text file called data1.txt with lines 1->10
+# this is fun
 
 #$FILENAME="data1.txt"
 $COUNTER=0
