@@ -3,7 +3,6 @@
 #$FILENAME="data1.txt"
 $COUNTER=0
 
-#touch $FILENAME
 touch data1.txt
 
 for i in {1..10};
