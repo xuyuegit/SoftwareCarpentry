@@ -6,5 +6,9 @@ touch data1.txt
 for i in {1..10};
 do
   let j=i+1
-  echo $j $i >>data1.txt
+  echo $j $i >> data1.txt
 done
+
+awk '{print $2, $1^2}' data1.txt > tmp
+mv tmp data1.txt
+
